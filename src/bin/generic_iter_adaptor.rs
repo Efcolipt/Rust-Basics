@@ -46,7 +46,7 @@ fn main() {
 
     // fold
     let vals: Vec<u32> = vec![1, 2, 3];
-    let sum = vals.iter().fold(0, |acc, x|  acc + x);
+    let sum = vals.iter().fold(0, |acc, x| acc + x);
 
     println!("fold {sum}");
 }
