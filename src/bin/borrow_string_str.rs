@@ -47,7 +47,7 @@ fn main() {
     // let b: str = "r";
 
     // &str
-    // - size known at compile time (pointer) 
+    // - size known at compile time (pointer)
     // - immutable borrow
     let s: &str = "hello";
     borrow_str(s);
@@ -56,6 +56,4 @@ fn main() {
     // &mut str
     let mut s = String::from("rust");
     let r: &mut str = &mut s;
-
-
 }

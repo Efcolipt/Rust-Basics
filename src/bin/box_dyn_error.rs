@@ -41,7 +41,6 @@ fn f3() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 fn main() {
-
     let z = f3();
     println!("z = {:?}", z);
 }

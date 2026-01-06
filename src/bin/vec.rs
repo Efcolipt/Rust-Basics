@@ -55,5 +55,4 @@ fn main() {
     let s = &v[..=2];
 
     println!("slice {:?}", s)
-
 }

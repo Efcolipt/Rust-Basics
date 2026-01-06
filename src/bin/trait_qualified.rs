@@ -21,7 +21,7 @@ impl Color for Square {
     }
 }
 
-impl Rectangle for  Square {
+impl Rectangle for Square {
     fn get(&self) -> (i32, i32, u32, u32) {
         (self.top, self.left, self.size, self.size)
     }
@@ -38,7 +38,7 @@ fn main() {
 
     // square.get()
     let color = Color::get(&square);
-    let (x,y, width, height) = Rectangle::get(&square);
+    let (x, y, width, height) = Rectangle::get(&square);
 
     println!("color: {color}");
     println!("x: {x}, y: {y}, width: {width}, height: {height}");

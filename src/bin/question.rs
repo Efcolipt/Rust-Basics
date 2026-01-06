@@ -41,7 +41,7 @@ fn f_question() -> Result<u32, String> {
     let x2 = f2()?;
 
     let res3 = f3();
-    
+
     let x3 = match res3 {
         Ok(x) => x,
         Err(err) => {

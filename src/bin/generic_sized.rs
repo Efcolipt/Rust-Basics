@@ -52,8 +52,7 @@ fn main() {
 
     let w: Box<dyn A> = Box::new("string".to_string());
     g(&w);
-    
+
     let w: Box<dyn A> = Box::new(1u32);
     g(&w);
-
 }

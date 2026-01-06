@@ -55,7 +55,6 @@ fn main() {
     } // s1 is dropped
     // println!("{s}");
 
-
     let s = String::from("rust");
     take(s);
     // println!("{s}");
@@ -63,5 +62,4 @@ fn main() {
     let i: i32 = 0;
     copy(i);
     println!("{i}");
-
 }

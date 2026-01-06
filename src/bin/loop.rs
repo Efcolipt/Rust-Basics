@@ -67,7 +67,7 @@ fn main() {
         'inner: for j in 0..5 {
             println!("{i}, {j}");
             if i == 1 && j == 2 {
-                break 'outer; 
+                break 'outer;
             }
         }
     }

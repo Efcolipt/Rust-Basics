@@ -22,6 +22,4 @@ impl From<(u32, u32)> for Point {
     }
 }
 
-fn main() {
-
-}
+fn main() {}

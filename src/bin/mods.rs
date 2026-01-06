@@ -1,9 +1,9 @@
 #![allow(unused)]
 
 // Modules
+use rust::foo;
 use rust::my;
 use rust::my::a;
-use rust::foo;
 
 fn main() {
     my::print();

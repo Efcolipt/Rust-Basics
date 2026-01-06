@@ -32,5 +32,4 @@ fn main() {
     let res: Result<u32, String> = Ok(5);
     let res: Result<u32, String> = Err("err".to_string());
     println!("res : {:?}", res);
-
 }

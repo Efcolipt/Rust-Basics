@@ -24,7 +24,6 @@ where
 {
 }
 
-
 // Difference between impl trait syntax and trait bounds
 // x and y can be different types
 fn k(x: impl A, y: impl A) {}
