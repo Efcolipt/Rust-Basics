@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 tokio = {version = "1.49.0", features = ["full"]}
+hmac = "0.12"
+sha1 = "0.10"
